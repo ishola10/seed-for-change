@@ -25,8 +25,8 @@ const Footer = () => {
             />
           </div>
           <p className="text-sm text-gray-400 leading-relaxed w-60">
-            At Revamp Initiatives, we believe in the power of creativity to
-            drive social change.
+            We are dedicated to empowering Nigerian women with relevant skills,
+            empowerment, and opportunities to ensure that Nigerian women thrive and positively impact the nations economy through creativity and social development.
           </p>
 
           <div className="flex items-center space-x-3 pt-2">

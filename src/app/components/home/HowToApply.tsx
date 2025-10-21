@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, Video, Upload } from "lucide-react";
+// let's import email icon from lucide-react
+import { FileText, Upload, Mail  } from "lucide-react";
 import Image from "next/image";
 
 export default function HowToApply() {
@@ -42,20 +43,7 @@ export default function HowToApply() {
             </p>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-            className="flex flex-col items-center text-center"
-          >
-            <div className="bg-[#003B3B]/10 p-4 rounded-full mb-4">
-              <Video size={40} className="text-[#003B3B]" />
-            </div>
-            <p className="text-gray-700 text-sm md:text-base max-w-xs">
-              Submit a 1-minute video or short essay on “Why I want to be a part of Seed for Change”
-            </p>
-          </motion.div>
+         
 
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -71,6 +59,21 @@ export default function HowToApply() {
               Upload any relevant document or portfolio (Important)
             </p>
           </motion.div>
+
+           <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="flex flex-col items-center text-center"
+          >
+            <div className="bg-[#003B3B]/10 p-4 rounded-full mb-4">
+              <Mail size={40} className="text-[#003B3B]" />
+            </div>
+            <p className="text-gray-700 text-sm md:text-base max-w-xs">
+              Submit form to &quot;info@revampinitiatives.org&quot; and await response
+            </p>
+          </motion.div>
         </div>
 
         <motion.p
@@ -80,7 +83,7 @@ export default function HowToApply() {
           viewport={{ once: true }}
           className="text-[#071739] font-medium text-base md:text-lg"
         >
-          Application Deadline: <span className="font-semibold">29th March 2027</span>
+          Application Deadline: <span className="font-semibold">27th November 2025</span>
         </motion.p>
       </div>
 
