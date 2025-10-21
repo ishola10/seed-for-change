@@ -26,7 +26,7 @@ const Banner: React.FC = () => {
         >
           <h1 className="text-2xl md:text-4xl font-bold leading-snug">
             Federal Ministry Of Women Affairs
-            <br /> Under The Social Development Program Presents
+            <br /> Under The Social Development Program RHSII774 Presents
             <br />
             <span className="text-[#F3C065]">The Seed For Change</span> -
             Creative Women Residency Program
